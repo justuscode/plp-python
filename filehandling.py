@@ -7,7 +7,7 @@ def process_file():
         with open(input_file_name, "r") as input_file:
             content = input_file.read()
 
-        # Modify the content (e.g., convert to uppercase)
+        # Modify the content 
         modified_content = content.upper()
 
         # Ask for the output file name
