@@ -42,17 +42,17 @@ class Vehicle:
 # Derived class
 class Car(Vehicle):
     def move(self):
-        return "Driving 🚗"
+        return "Driving "
 
 
 class Plane(Vehicle):
     def move(self):
-        return "Flying ✈️"
+        return "Flying "
 
 
 class Boat(Vehicle):
     def move(self):
-        return "Sailing 🚤"
+        return "Sailing "
 
 # Function to demonstrate polymorphism
 def show_movement(vehicle):
